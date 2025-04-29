@@ -15,6 +15,9 @@ public class ArithException {
         } catch (ArithmeticException e) {
             System.out.println("Arithmetic Exception=> "+e.getMessage());
         }
+        finally{
+            System.out.println("Rest of the code will be executed normally");
+        }
         sc.close();
     }
 }
